@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS dpgsix;
+CREATE DATABASE dpgsix;
+USE dpgsix;
+CREATE TABLE courses (id INT ,name VARCHAR(64) ,description VARCHAR(200) , PRIMARY KEY (id));
+CREATE TABLE studentdata (id INT ,fname VARCHAR(64) ,lname VARCHAR(64) ,age INT , PRIMARY KEY (id));
+CREATE TABLE studentenrollment (id INT ,student_id INT ,course_id INT , PRIMARY KEY (id), FOREIGN KEY (student_id) REFERENCES student_id(id), FOREIGN KEY (course_id) REFERENCES courses(id));
+INSERT INTO courses VALUES ('5408','datamanagement','thiscourseisrelatedtodatabases');
+INSERT INTO studentenrollment VALUES ('1001','1','5408');
+INSERT INTO studentdata VALUES ('2 kavan patel 24');
+INSERT INTO studentdata VALUES ('2 nilesh Gupta 26');

@@ -1,0 +1,17 @@
+user~vinay~database~dpgsix~query~create~startTime~927264283616~executionTime~41375559~VM1
+user~vinay~database~dpgsix~query~use~startTime~935722326849~executionTime~9996199~VM1
+user~vinay~database~dpgsix~query~create~startTime~938583154521~executionTime~3895794~VM1
+user~vinay~database~dpgsix~query~insert~startTime~949737223538~executionTime~15383108~VM1
+user~vinay~database~dpgsix~query~create~startTime~961426455796~executionTime~3577421~VM1
+user~vinay~database~dpgsix~query~insert~startTime~973769008485~executionTime~1152751~VM1
+user~vinay~database~dpgsix~query~create~startTime~980528316431~executionTime~2833295~VM1
+user~vinay~database~dpgsix~query~insert~startTime~986837414620~executionTime~2244905~VM1
+user~vinay~database~dpgsix~query~insert~startTime~994517341408~executionTime~1870674~VM1
+user~vinay~database~dpgsix~query~insert~startTime~1004347416378~executionTime~1041640~VM1
+user~vinay~database~dpgsix~query~update~startTime~1012646481508~executionTime~4648563~VM1
+user~vinay~database~dpgsix~query~delete~startTime~1019839784222~executionTime~7611266~VM1
+user~vinay~database~dpgsix;~msg~LOCKED~time~1175743764651~VM1
+user~vinay~database~dpgsix;~msg~LOCKED~time~1245676805697~VM1
+user~vinay~database~dpgsix~query~use~startTime~1245767521179~executionTime~2499755~VM1
+user~vinay~database~dpgsix~query~select~startTime~1245835128370~executionTime~29999963~VM1
+user~vinay~database~dpgsix;~msg~UNLOCKED~time~1245867740911~VM1

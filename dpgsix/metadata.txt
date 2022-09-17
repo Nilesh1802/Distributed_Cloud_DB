@@ -1,0 +1,10 @@
+courses~id~int~pk~vm1
+courses~name~varchar~64~vm1
+courses~description~varchar~200~vm1
+studentenrollment~id~int~pk~vm1
+studentenrollment~student_id~int~fk~student_id~id~vm1
+studentenrollment~course_id~int~fk~courses~id~vm1
+studentdata~id~int~pk~vm1
+studentdata~fname~varchar~64~vm1
+studentdata~lname~varchar~64~vm1
+studentdata~age~int~vm1

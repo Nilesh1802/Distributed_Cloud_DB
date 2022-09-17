@@ -1,0 +1,15 @@
+Table - courses
+Columns - [(pk) id, name, description]
+
+Table - studentenrollment
+Columns - [(pk) id, (fk) student_id, (fk) course_id]
+
+Table - studentdata
+Columns - [(pk) id, fname, lname, age]
+
+Relationships between tables
+-----------------------------------------
+(N-1) relation between studentenrollment ((fk) student_id) -> student_id ((pk) id)
+
+(N-1) relation between studentenrollment ((fk) course_id) -> courses ((pk) id)
+
